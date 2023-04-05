@@ -6,6 +6,7 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set mouse=a
+set list
 
 set term=xterm-256color
 
