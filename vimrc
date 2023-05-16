@@ -7,6 +7,9 @@ set shiftwidth=2
 set expandtab
 set mouse=a
 set list
+set spell
+
+highlight SpellBad term=bold cterm=bold,underline ctermfg=3 gui=bold guifg=Red ctermfg=Red
 
 set term=xterm-256color
 
