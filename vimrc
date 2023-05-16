@@ -9,6 +9,7 @@ set mouse=a
 set list
 set spell
 
+highlight clear SpellBad
 highlight SpellBad term=bold cterm=bold,underline ctermfg=3 gui=bold guifg=Red ctermfg=Red
 
 set term=xterm-256color
