@@ -9,6 +9,9 @@ set mouse=a
 set list
 set spell
 
+set wildmode=full,list,longest
+set wildmenu
+
 highlight clear SpellBad
 highlight SpellBad cterm=underline ctermfg=3 gui=bold guifg=Red ctermfg=Red
 
