@@ -5,11 +5,14 @@ filetype plugin indent on
 set tabstop=2
 set shiftwidth=2
 set expandtab
+set softtabstop=2
+set autoindent
+set smartindent
 set mouse=a
 set list
 set spell
 
-set wildmode=full,list,longest
+set wildmode=full,longest,list
 set wildmenu
 
 highlight clear SpellBad
@@ -26,3 +29,6 @@ inoremap jj <ESC>
 cs add cscope.out
 
 set whichwrap+=<,>,[,]
+
+set dir=~/.cache/vim
+set backupdir=~/.cache/vim
