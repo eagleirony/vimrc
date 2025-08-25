@@ -15,7 +15,7 @@ set list
 set spell
 set ruler
 set backspace=indent,eol,start
-set colorcolumn=88
+set colorcolumn=80
 set cursorline
 
 set wildmode=full,longest,list
